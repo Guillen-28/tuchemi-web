@@ -1,0 +1,119 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- RESPONSIVE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tu Chemi FC</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" href="logo.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FUENTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ICONOS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  VISTE LA PASIÓN DEL FÚTBOL CON TU CHEMI FC
+</div>
+
+<!-- HEADER -->
+<header>
+
+  <div class="logo-container">
+
+    <img src="logo.png" alt="TuChemi Logo">
+
+    <div>
+      <h1>Tu Chemi FC</h1>
+      <p class="slogan">CAMISETAS DE FÚTBOL PARA LOS VERDADEROS FANS</p>
+    </div>
+ 
+  </div>
+
+  <div class="header-info">
+
+    <div class="info-box">
+      <i class="fa-solid fa-location-dot"></i>
+      <span>San Benito Calle la Revolución Edificio Noljer Local 1</span>
+    </div>
+
+    <div class="info-box">
+      <i class="fa-solid fa-truck-fast"></i>
+      <span>Envíos departamentales $5</span>
+    </div>
+
+  </div>
+
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="hero-overlay">
+
+    <h2>
+      TU MEJOR OPCIÓN EN CAMISETAS DE FÚTBOL
+    </h2>
+
+    <p>
+      Jerseys premium • Calidad top 
+    </p>
+
+  </div>
+
+</section>
+
+<!-- CATALOGO -->
+<section id="catalogo">
+
+  <h2>CATÁLOGO DE CAMISETAS</h2>
+
+  <div class="filtros">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('real')">Real Madrid</button>
+    <button onclick="filtrar('barca')">Barcelona</button>
+    <button onclick="filtrar('seleccion')">Selecciones</button>
+  </div>
+
+  <div class="grid" id="productos"></div>
+
+</section>
+
+<!-- INSTAGRAM -->
+<a href="https://www.instagram.com/tuchemifcsv" target="_blank" class="instagram-btn">
+  <img src="instagram.png" alt="Instagram">
+</a>
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<!-- MODAL -->
+<div id="modal" class="modal" onclick="cerrarModal()">
+  <div class="modal-content">
+    <img id="modal-img">
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
