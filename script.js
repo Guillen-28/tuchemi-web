@@ -1,4 +1,5 @@
 const productos = [
+  /*
   {
     nombre: "Real Madrid 24/25",
     categoria: "real",
@@ -13,13 +14,167 @@ const productos = [
     precioBase: 35,
     precioExtra: 40
   },
+    */
+    /* =====================================
+     PORTUGAL
+     ===================================== */
+
   {
-    nombre: "Argentina 24/25",
+    nombre: "Portugal Home 2026 - Ronaldo #7",
     categoria: "seleccion",
-    imagenes: ["argentina-24-25.jpeg", "argentina-24-25.jpeg"],
-    precioBase: 22,
-    precioExtra: 22
+    imagenes: [
+      "img/Portugal/portugal-local-1.jpg",
+      "img/Portugal/portugal-local-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  {
+    nombre: "Portugal Away 2026 - Ronaldo #7",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Portugal/portugal-visita-1.jpg",
+      "img/Portugal/portugal-visita-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  /* =====================================
+     ESPAÑA
+     ===================================== */
+
+  {
+    nombre: "España Home Roja 2026",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Espana/espana-local-1.jpg",
+      "img/Espana/espana-local-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  {
+    nombre: "España Away 2026 - Pedri #20",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Espana/espana-visita-1.jpg",
+      "img/Espana/espana-visita-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  /* =====================================
+     ALEMANIA
+     ===================================== */
+
+  {
+    nombre: "Alemania Home 2026",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Alemania/alemania-local-1.jpg",
+      "img/Alemania/alemania-local-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  /* =====================================
+     ARGENTINA
+     ===================================== */
+
+  {
+    nombre: "Argentina Home 2026 - Messi #10",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Argentina/argentina-local-1.jpg",
+      "img/Argentina/argentina-local-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  {
+    nombre: "Argentina Away 2026 - Messi #10",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Argentina/ argentina-visita-1.jpg",
+      "img/Argentina/ argentina-visita-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  /* =====================================
+     BRASIL LOCAL
+     ===================================== */
+
+  {
+    nombre: "Brasil Home 2026 - Raphinha #11",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Brasil/brasil-local-raphinha-1.jpg",
+      "img/Brasil/brasil-local-raphinha-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  {
+    nombre: "Brasil Home 2026 - Vini Jr #7",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Brasil/brasil-local-vini-1.jpg",
+      "img/Brasil/brasil-local-vini-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  /* =====================================
+     BRASIL VISITA
+     ===================================== */
+  
+  {
+    nombre: "Brasil Away 2026 - Neymar Jr #10",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Brasil/brasil-visita-neymar-1.jpg",
+      "img/Brasil/brasil-visita-neymar-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  {
+    nombre: "Brasil Away 2026 - Raphinha #11",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Brasil/brasil-visita-raphinha-1.jpg",
+      "img/Brasil/brasil-visita-raphinha-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
+  },
+
+  /* =====================================
+     FRANCIA
+     ===================================== */
+
+  {
+    nombre: "Francia Home 2026 - Mbappé #10",
+    categoria: "seleccion",
+    imagenes: [
+      "img/Francia/francia-local-1.jpg",
+      "img/Francia/francia-local-2.jpg"
+    ],
+    precioBase: 40,
+    precioExtra: 45
   }
+
 ];
 
 let posiciones = {};

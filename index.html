@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,6 +5,11 @@
 
   <!-- RESPONSIVE -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Tu Chemi FC - Camisetas de fútbol premium para los verdaderos fans. Real Madrid, Barcelona y selecciones nacionales.">
+  <meta name="keywords" content="camisetas de fútbol, jerseys, Real Madrid, Barcelona, selecciones">
+  <meta name="author" content="Tu Chemi FC">
 
   <title>Tu Chemi FC</title>
 
@@ -15,13 +19,13 @@
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- FUENTES -->
+  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- ICONOS -->
+  <!-- FONT AWESOME -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -40,25 +44,42 @@
 
   <div class="logo-container">
 
-    <img src="logo.png" alt="TuChemi Logo">
+    <img
+      src="logo.png"
+      alt="Logo Tu Chemi FC"
+      loading="eager"
+    >
 
     <div>
       <h1>Tu Chemi FC</h1>
-      <p class="slogan">CAMISETAS DE FÚTBOL PARA LOS VERDADEROS FANS</p>
+
+      <p class="slogan">
+        CAMISETAS DE FÚTBOL PARA LOS VERDADEROS FANS
+      </p>
     </div>
- 
+
   </div>
 
   <div class="header-info">
 
     <div class="info-box">
+
       <i class="fa-solid fa-location-dot"></i>
-      <span>San Benito Calle la Revolución Edificio Noljer Local 1</span>
+
+      <span>
+        San Benito Calle la Revolución Edificio Noljer Local 1
+      </span>
+
     </div>
 
     <div class="info-box">
+
       <i class="fa-solid fa-truck-fast"></i>
-      <span>Envíos departamentales $5</span>
+
+      <span>
+        Envíos departamentales $5
+      </span>
+
     </div>
 
   </div>
@@ -75,44 +96,89 @@
     </h2>
 
     <p>
-      Jerseys premium • Calidad top 
+      Jerseys premium • Calidad top
     </p>
 
   </div>
 
 </section>
 
-<!-- CATALOGO -->
+<!-- CATÁLOGO -->
 <section id="catalogo">
 
   <h2>CATÁLOGO DE CAMISETAS</h2>
 
   <div class="filtros">
-    <button onclick="filtrar('todos')">Todos</button>
-    <button onclick="filtrar('real')">Real Madrid</button>
-    <button onclick="filtrar('barca')">Barcelona</button>
-    <button onclick="filtrar('seleccion')">Selecciones</button>
+
+    <button onclick="filtrar('todos')">
+      Todos
+    </button>
+
+       <!--
+    ///<button onclick="filtrar('real')">
+      Real Madrid
+    ///</button>///
+
+    <button onclick="filtrar('barca')">
+      Barcelona
+    </button>
+       -->
+       
+    <button onclick="filtrar('seleccion')">
+      Selecciones
+    </button>
+
   </div>
 
-  <div class="grid" id="productos"></div>
+  <div
+    class="grid"
+    id="productos">
+  </div>
 
 </section>
 
 <!-- INSTAGRAM -->
-<a href="https://www.instagram.com/tuchemifcsv" target="_blank" class="instagram-btn">
-  <img src="instagram.png" alt="Instagram">
+<a
+  href="https://www.instagram.com/tuchemifcsv"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="instagram-btn"
+  aria-label="Instagram Tu Chemi FC"
+>
+
+  <img
+    src="instagram.png"
+    alt="Instagram"
+    loading="lazy"
+  >
+
 </a>
 
 <!-- TOAST -->
 <div id="toast"></div>
 
 <!-- MODAL -->
-<div id="modal" class="modal" onclick="cerrarModal()">
-  <div class="modal-content">
-    <img id="modal-img">
+<div
+  id="modal"
+  class="modal"
+  onclick="cerrarModal()"
+>
+
+  <div
+    class="modal-content"
+    onclick="event.stopPropagation()"
+  >
+
+    <img
+      id="modal-img"
+      alt="Vista ampliada del producto"
+    >
+
   </div>
+
 </div>
 
+<!-- JS -->
 <script src="script.js"></script>
 
 </body>
